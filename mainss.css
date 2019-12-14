@@ -1,0 +1,85 @@
+#project{
+    background-color: #ddd;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    max-width: 1200px;
+}
+
+.test{
+    position: relative;
+    width: 360px;
+    height: 720px;
+    background: #FFFFFF;
+}
+
+.menu{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px 
+    rgba(38, 50, 56, 0.08);
+}
+
+.menu a :hover{
+    color: blue;
+}
+
+.screen{
+    position: absolute;
+    left:72px;
+    right:0px;
+    padding: 16px;
+    margin: 16px;
+    align:left;
+    fill:solid;
+    top:0px;
+    bottom:0px;
+    font-family:'Roboto';
+    font-style: medium;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.work{
+    background: url(../img/Background.png) no-repeat center;
+    position: absolute;
+    left:0px;
+    right: 0px;
+    top: 56px;
+    bottom: 382px;
+    width: 360px;
+    height: 282px;
+}
+
+.my{
+    background: url(../img/mystore.png);
+    position: absolute;
+    width: 117.46px;
+    margin: 329.17;
+    height: 28.83px;
+    left: 120.52px;
+    top: 0.17px;
+    fill: solid;
+}
+
+.text{
+    position: absolute;
+    left: 0px;
+    right:0px;
+    top: 0px;
+    bottom:0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    align: center;
+}
